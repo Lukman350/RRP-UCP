@@ -1,0 +1,21 @@
+body {
+  background: #2b2b2b;
+}
+.bg-login-image {
+  background-image: url("../img/rrp-logo.jpg") !important;
+}
+.bg-password-image {
+  background-image: url("../img/rrp-logo.jpg") !important;
+}
+.form-control {
+  background-color: black;
+  border-radius: 0;
+  color: white;
+}
+
+.form-control:focus {
+  background: black;
+  color: white;
+  border: 1px solid white;
+  box-shadow: unset;
+}
