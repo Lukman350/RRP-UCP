@@ -172,7 +172,7 @@ include "../templates/dashboard/header.php";
                                         </tr>
                                         <tr>
                                             <td>Last Login</td>
-                                            <td><?= ($user['LastLogin'] == 0) ? ("Anda belum pernah ingame.") : (date("l, d F Y h:i:s", $user['LoginDate'])); ?></td>
+                                            <td><?= ($user['LoginDate'] == 0) ? ("Anda belum pernah ingame.") : (date("l, d F Y h:i:s", $user['LoginDate'])); ?></td>
                                         </tr>
                                         <tr>
                                             <td>Warnings</td>

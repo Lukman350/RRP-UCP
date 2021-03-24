@@ -2,10 +2,10 @@
 
 // Database class
 class Database {
-  private $host = "localhost",
+  private $host = "13.251.156.119",
           $user = "root",
           $pass = "",
-          $dbname = "ugrp";
+          $dbname = "relivedrp";
 
   public $db;
 
